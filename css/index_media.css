@@ -705,7 +705,7 @@ form p>input{
 
 @media screen and (max-width:800px) {
   #modal{
-    /* display: block; */
+    display: block;
     padding: 6.66vh 5vw 3.333vh;
     box-sizing: border-box;
   }
