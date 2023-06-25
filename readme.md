@@ -9,14 +9,7 @@
 ## 배포링크
 
 - 배포방식은 AWS: S3의 간이 배포를 이용하였습니다.
-
-<<<<<<< HEAD
-- [바로가기](http://127.0.0.1:5500/index.html)
-=======
 - [바로가기](https://jihoon-project-1.s3.ap-northeast-2.amazonaws.com/index.html)
->>>>>>> 4d23b3ccca23742b67cc3ef6b692ccd4922215e9
-
----
 
 ## 개발도구 및 환경
 
