@@ -28,6 +28,7 @@ $(function(){
 
 
 
+
 // web nav
 function nav(){
   $('nav li>a').on('click',function(){
@@ -159,15 +160,15 @@ const close = document.querySelector('#modal>.close');
 // console.log(close)
 const modal = document.querySelector('#modal');
 // open.onclick -> 첫번쨰 
-open.forEach(function(item,index){
-  item.onclick = function(){
-    modal.style.display = 'block'
-    myModal[index].action();
-  }
-})
-close.onclick = function(){
-  modal.style.display = 'none';
-}
+// open.forEach(function(item,index){
+//   item.onclick = function(){
+//     modal.style.display = 'block'
+//     myModal[index].action();
+//   }
+// })
+// close.onclick = function(){
+//   modal.style.display = 'none';
+// }
 
 
 

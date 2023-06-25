@@ -40,6 +40,13 @@ nav> ul.gnb>li>a{
   font-size: 20px;
   font-weight: bold;
 }
+nav> ul.gnb>li>a:hover{
+  background-color: salmon;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
 
 nav.close{
   display: none;
@@ -112,7 +119,7 @@ article{
   background-size: cover;
 }
 #box>ul>li.event03{
-  background: url('../images/kaleidico-7lryofJ0H9s-unsplash.jpg') no-repeat
+  background: url('../images/4o1ok.png') no-repeat
   center bottom;
   background-size: cover;
 }
@@ -177,7 +184,7 @@ section#box02 div.box03 dl{
 }
 section#box02 div.box03 dl>dt{
   margin-bottom: 3.846153846153846% /* 50px */;
-  line-height: 20px;
+  line-height: 40px;
   color: #4b4b4b;
   font-size: 25px;
 }
@@ -203,7 +210,12 @@ section#box02 div.box03 dl>dd>input{
   font-size: 25px;
   color: #fff;
   text-align: center;
-  
+}
+
+section#box02 div.box03 dl>dd>input:hover {
+  background: skyblue;
+  color: #fff;
+  transition: all 0.5s;
 }
 
 section#box04{
@@ -256,9 +268,13 @@ section#box04 ul>li{
   margin: 0 20px 20px 0;
   border: 1px solid #333;
 }
+section#box04 ul>li:hover {
+  background: skyblue;
+  transition: all 0.5s;
+}
+
 section#box04 ul>li>img{
   /* width: 24px; */
-   
 }
 
 section#box05{
@@ -306,6 +322,13 @@ section#box05 ul>li:first-child{
 section#box05 ul>li>a{
   color: #fff;
 }
+section#box05 ul>li>a:hover{
+  background-color: salmon;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
 section#box05 div{
   width: 98%/* 1320px */;
   margin: 0 auto;
@@ -340,17 +363,32 @@ p.next{
 }
 
 #all{
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 #all>figure{
-  width: 33.33333%;
+  width: calc(33.3333% - 1em);
+  margin: 0 0 1em;
+  padding: 10px;
+  border: 3px solid #ddd;
+  box-sizing: border-box;
   text-align: center;
   margin-bottom: 3.8461538461538465 /* 50px */;
+}
+#all>figure>img{
+  width: 100%
 }
 #all>figure>figcaption{
   color: #fff;
   margin-top: 1.923076923076923% /* 25px */;
+}
+#all>figure>figcaption>dl{
+  
+}
+#all>figure>figcaption>dl>dt{
 }
 
 
